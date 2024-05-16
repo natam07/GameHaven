@@ -1,0 +1,21 @@
+.custom-product-image {
+    margin: 0%;
+    padding: auto;
+    height: 600px;
+    /* Otros estilos personalizados según tu diseño */
+}
+
+.center-image {
+    width: 200px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Asegura que la imagen esté encima de todo / / Agrega una sombra con un desplazamiento horizontal y vertical de 0px, un desenfoque de 10px y un color RGBA (negro con una opacidad del 50%) */
+}
+
+@media (max-width: 300px) { /* Ajusta según el ancho en el que deseas que se aplique el cambio */
+    .custom-product-image {
+        width: 100%;
+    }
+}

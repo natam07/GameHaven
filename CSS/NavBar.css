@@ -1,0 +1,68 @@
+.navbar.bg-body-tertiary.navbar-expand-lg {
+    background-color: black !important;
+    position: fixed; /* Asegura que la barra de navegación se mantenga en la parte superior de la ventana */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    z-index: 9999; /* Ajusta el valor de z-index para que la barra de navegación esté por encima de todo */
+}
+.nav-item:hover{
+    background-color:  #ff00ff
+
+}
+/* El resto de tu código CSS permanece sin cambios */
+.navbar.bg-body-tertiary {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Cambiar el fondo de la barra de navegación a negro */
+}
+
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 5px 5px 10px  #ff00ff; /* Agregar sombra morada */
+}
+
+.dropdown-menu {
+    background-color: black !important; /* Cambiar el fondo a negro */
+}
+
+.dropdown-item {
+    color: rgb(255, 255, 255) !important; /* Cambiar el color del texto a blanco */
+    text-shadow: 2px 2px 4px  #ff00ff !important; /* Agregar sombra morada detrás del texto */
+}
+
+.dropdown-item:hover {
+    background-color:  #ff00ff !important;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255) !important;
+     /* Cambiar el color del texto a morado cuando se pasa el mouse sobre él */
+}
+
+.navbar-brand {
+    color: beige;
+    font-weight: bold; /* Aplicar negrita */
+    font-style: italic; /* Aplicar cursiva */
+}
+
+form.d-flex button.btn-outline-success {
+    background-color:  #ff00ff; /* Cambia el color de fondo del botón a morado */
+    color: aliceblue;
+    border: 1px;
+    border-color:  #ff00ff;   
+}
+
+form.d-flex button.btn-outline-success:hover{
+    background-color: aliceblue;
+    color:  #ce00ce;
+}
+
+.custom-toggler {
+    background-color: #ce00ce; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+    border: 2px solid #ce00ce; /* Añade un borde */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    padding: 5px 10px; /* Ajusta el relleno */
+}
+
+.custom-toggler:hover {
+    background-color: #ce00ce; /* Cambia el color de fondo al pasar el mouse */
+}
+

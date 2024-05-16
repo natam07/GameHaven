@@ -1,0 +1,49 @@
+.carousel {
+  margin-top: 0;
+  position: relative; /* Asegura que el posicionamiento absoluto funcione correctamente */
+  width: 100%;
+}
+
+.carousel-text {
+  text-align: right;
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2%;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Posiciona el elemento en el centro horizontalmente */
+  transform: translateX(-50%); /* Centra horizontalmente la caja del contenedor */
+  font-weight: bold;
+  max-width: calc(100% - 20px); /* Ancho máximo igual al ancho del carrusel menos los paddings */
+}
+
+.carousel-control-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1; /* Asegura que esté por encima de las imágenes */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent; /* Fondo transparente */
+  color: rgb(255, 255, 255); /* Color del ícono */
+  border: none; /* Sin borde */
+  padding: 10px; /* Espacio interior */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #6f00ff73; /* Cambio de color al pasar el mouse */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: drop-shadow(0px 0px 5px #6f00ff65); /* Agrega sombra solo a la flecha */
+}

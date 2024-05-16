@@ -1,0 +1,31 @@
+hr{
+    color: #bcbcbc;
+    width: 50%;
+    margin: auto;
+}
+
+.layout {
+    display: flex;
+    gap: 16px;
+    margin: 30px;
+}
+
+.modal-content{
+    background-color: black;
+}
+
+/* Estilos para el botón */
+.btn {
+    background-color: #6f00ff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d400ff;
+    color: #fff;
+}

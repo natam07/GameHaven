@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: antiquewhite;
+}
+
+/* Contenedor principal */
+.container {
+    max-width:auto;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+}
+
+/* Estilos para la información del producto */
+.product-info {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.product-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.Noticias h1{
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+/* Estilos para los productos */
+.row {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

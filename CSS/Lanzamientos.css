@@ -1,0 +1,45 @@
+
+.cartas_lanzamientos{
+    padding: 2%;
+    margin-left: 5%;
+}
+
+.cartas_lanzamientos .carta_principal{
+    padding-right: 1%;
+}
+
+.inferior{
+    padding-left: 1%;
+    flex-direction: column;
+}
+
+.inferior .row{
+    padding: 0;
+    margin: 0%;
+}
+
+.card{
+    background-color: black;
+    color: #bcbcbc;
+    box-shadow: 5px 5px 12px 5px #bcbcbc,
+    -5px -5px 12px 5px #6f00ff;
+    margin-bottom: 15px;
+}
+
+.logos a{
+    margin: 4px;
+}
+
+@media only screen and (max-width: 750px) {
+    /* For tablets: */
+    .cartas_lanzamientos{
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .inferior{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1%;
+    }
+}
